@@ -1,7 +1,7 @@
-package org.example.kafkaservice.controller; // Убедись, что путь совпадает с твоим проектом
+package org.example.kafkaservice.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.example.kafkaservice.service.EmailService; // Импорт твоего сервиса из соседнего пакета
+import org.example.kafkaservice.service.EmailService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

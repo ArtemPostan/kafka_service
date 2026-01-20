@@ -10,7 +10,6 @@ public class UserEvent {
     private String email;
     private String action;
 
-    // Добавляем геттеры вручную, раз Lombok не подхватился
     public String getAction() {
         return action;
     }
